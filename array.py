@@ -18,11 +18,15 @@ def main():
 
     total = sum(scores)
     average = total / len(scores)
+    maximum = max(scores)
+    minimum = min(scores)
 
     print(f"Number of scores: {len(scores)}")
     print(f"Scores: {scores}")
     print(f"Sum: {total:g}")
     print(f"Average: {average:g}")
+    print(f"Maximum: {maximum:g}")
+    print(f"Minimum: {minimum:g}")
 
 
 if __name__ == "__main__":
